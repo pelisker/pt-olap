@@ -1,0 +1,195 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c4c45ebf-2c14-49a9-919b-5f6cbbcf2458" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>LOGISTICS</ID>
+  <Name>LOGISTICS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="d078b961-c72e-47a5-9c61-46f557948337">
+      <ID>t Times Dim</ID>
+      <Name>t Times Dim</Name>
+      <DimensionID>t Times Dim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a9b4f108-853a-45f2-9792-bce5ccb0d095">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8c6eb78d-d853-4c14-9aec-0e7b14efbd86">
+      <ID>t Units Dim</ID>
+      <Name>t Units Dim</Name>
+      <DimensionID>t Units Dim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="20c21ddf-d0ba-4117-ae5b-64eecf189622">
+          <AttributeID>ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f75fc71f-17a7-46e0-bfab-402609e68a07">
+      <ID>t Tovars Dim</ID>
+      <Name>t Tovars Dim</Name>
+      <DimensionID>t Tovars Dim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="58cb7baf-ec67-4af8-a082-a5fffee8a613">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="6e828ba6-ad68-4fdd-b281-54bb90ceac06">
+      <ID>t Sales Fact</ID>
+      <Name>t Sales Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="fd7eed88-7fdd-4e3a-9ec9-252732bec0e2">
+          <ID>Quantity Sale</ID>
+          <Name>Quantity Sale</Name>
+          <Source dwd:design-time-name="00fe22ba-e9d4-4ad1-b9cb-dc16b45324d0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f611d055-ae7e-48c0-bf65-d5564ee1a2be">
+              <TableID>dbo_t_sales_fact</TableID>
+              <ColumnID>quantity_sale</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="20f00df7-c30b-4793-9c35-083ecd435651">
+          <ID>Amount Sale</ID>
+          <Name>Amount Sale</Name>
+          <Source dwd:design-time-name="315877a3-3b27-44fb-8310-455fdb4f5e5a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f51b3545-a1fd-4216-9bb7-b825d5043bdf">
+              <TableID>dbo_t_sales_fact</TableID>
+              <ColumnID>amount_sale</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="91d39a23-9f1b-4522-849b-20dbebfc21bf">
+          <ID>Quantity Order</ID>
+          <Name>Quantity Order</Name>
+          <Source dwd:design-time-name="85b848ea-6ce1-46cb-9ffb-9f2c28390185">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7231c328-f4c7-40cf-96ca-582e9fd5b4f2">
+              <TableID>dbo_t_sales_fact</TableID>
+              <ColumnID>quantity_order</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ab146796-b51e-48a3-822d-c6dd201a6bea">
+          <ID>Amount Order</ID>
+          <Name>Amount Order</Name>
+          <Source dwd:design-time-name="932a195e-ce76-4af3-b528-82f1488472ec">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="09aae74d-a12d-47e2-ae41-5562eb9b1ad0">
+              <TableID>dbo_t_sales_fact</TableID>
+              <ColumnID>amount_order</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1c4c3154-3cc6-4f6c-a628-9acf3e77dc98">
+          <CubeDimensionID>t Times Dim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="36ec56e9-e505-4250-b19e-6139e0b0e33a">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ff2a4226-1f7f-49e5-9e85-fc853f005e53">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9c36ba9-2ebc-4df1-ad3c-39caf7648c01">
+                    <TableID>dbo_t_sales_fact</TableID>
+                    <ColumnID>date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e50a60ab-e850-44d2-8ae0-9e2840c0233d">
+          <CubeDimensionID>t Units Dim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d8c6f184-fda5-4e5f-b5ef-a33ed7f65073">
+              <AttributeID>ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="860cb323-2b17-4dba-9859-9e5084dc2ba1">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="64dbfa29-5cfd-42e4-b64b-df703b6d8944">
+                    <TableID>dbo_t_sales_fact</TableID>
+                    <ColumnID>unit</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ee5bec44-c444-448a-998d-a0e8acef8919">
+          <CubeDimensionID>t Tovars Dim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="be2f9028-1d40-4ec8-8d9f-b705ba67e154">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9f347a51-7049-41a0-8833-e2588720119d">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="12543210-ad47-4450-ba54-60c71785955b">
+                    <TableID>dbo_t_sales_fact</TableID>
+                    <ColumnID>tovar</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="69bfe9bc-708f-43fa-85fc-19611ac8b1b9">
+    <DataSourceViewID>OLAP DATA</DataSourceViewID>
+  </Source>
+</Cube>

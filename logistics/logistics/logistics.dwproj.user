@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>OLAP DATA</Id>
+            <Name>OLAP DATA</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+4s81cTa20idEIS0jubslgAAAAAUAAAATwBMAEEAUAAgAEQAQQBUAEEAAAADZgAAwAAAABAAAADGKLfPZptuF7MOSuahD6S4AAAAAASAAACgAAAAEAAAAHxPa5ciRfi03AIJZMwHcGYYAAAANhINFT4t+/zWXQEloSEvVG4XQGIoQIoFFAAAAFhuG8uDSPSP2Wbe/FOYm5WCmeyr</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>OLAP DATA</Id>
+            <Name>OLAP DATA</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+4s81cTa20idEIS0jubslgAAAAAUAAAATwBMAEEAUAAgAEQAQQBUAEEAAAADZgAAwAAAABAAAADPAri4MhpdnTi5ihVqyb2jAAAAAASAAACgAAAAEAAAABHkBPx+xCj+I6lkUgyXNk8QAAAAa7l/9nK8a5kquczOG0U/0hQAAADGlhC7ZGfcZtkoDb7JOjYyNdotEw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>logistics</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

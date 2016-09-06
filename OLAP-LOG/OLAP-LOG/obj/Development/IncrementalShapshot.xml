@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAPLOG</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>A+E/pDaUqge6dt8wAsuSTMZ2gVw=02.09.2016 23:23:0202.09.2016 16:49:42</TimeStamp>
+        <ID>
+          <String>OLAP DATA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ZhSe3Eyt8caiiw0yK6mns//9Ufc=02.09.2016 16:50:4902.09.2016 16:50:02</TimeStamp>
+        <ID>
+          <String>OLAP DATA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GyNCcvtZMb7ZtizLSVy5Hk2S2pM=02.09.2016 16:50:4902.09.2016 16:50:49</TimeStamp>
+        <ID>
+          <String>t Times Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HDsEV6pfLSr4rLqZr8dquONQ150=02.09.2016 16:50:4902.09.2016 16:50:49</TimeStamp>
+        <ID>
+          <String>t Tovars Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tS7sVbeRY3BZPEyGayUoCu9RzlE=02.09.2016 16:50:4902.09.2016 16:50:49</TimeStamp>
+        <ID>
+          <String>t Units Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>crP6HY53oieKmEpaIgJXhHt0BLw=02.09.2016 16:50:4902.09.2016 16:50:49J0hmm56g7kFy7PCACsDCjV5F5U0=02.09.2016 16:50:4902.09.2016 16:50:49</TimeStamp>
+        <ID>
+          <String>OLAP DATA</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>KxAa05+n1WZaYgnbJOTDjS74Wm0=02.09.2016 16:47:2702.09.2016 16:47:27</TimeStamp>
+      <ID>
+        <String>OLAPLOG</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-09-02T20:39:33.296667Z</LastDeployed>
+</DeploymentSnapshot>

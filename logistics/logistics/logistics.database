@@ -10,4 +10,22 @@
     <ImpersonationMode>Default</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </DataSourceImpersonationInfo>
+  <Dimensions />
+  <Cubes />
+  <DataSources />
+  <DataSourceViews />
+  <Roles />
+  <DatabasePermissions>
+    <DatabasePermission dwd:design-time-name="05e4f6f3-1541-44d9-b47b-f1a2e6cec243">
+      <ID>DatabasePermission</ID>
+      <Name>DatabasePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Process>true</Process>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+      <Administer>true</Administer>
+    </DatabasePermission>
+  </DatabasePermissions>
 </Database>

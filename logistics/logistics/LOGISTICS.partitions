@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1b8d24fa-b37b-4ebf-9176-683a77f73f5a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>LOGISTICS</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>t Sales Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="89344c81-68e4-489c-aed3-b0c95822cf54">
+          <ID>t Sales Fact</ID>
+          <Name>t Sales Fact</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="48a3dadc-a7d1-42f4-a16f-34692c7db1be">
+            <DataSourceViewID>OLAP DATA</DataSourceViewID>
+            <TableID>dbo_t_sales_fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
