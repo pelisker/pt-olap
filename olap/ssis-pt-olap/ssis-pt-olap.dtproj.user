@@ -18,5 +18,22 @@
         </ParameterConfigurationSensitiveValues>
       </Options>
     </Configuration>
+    <Configuration>
+      <Name>DevPelisker</Name>
+      <Options>
+        <Run64BitRuntime>true</Run64BitRuntime>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2016-09-11T08:13:51.0367896Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
   </Configurations>
 </DataTransformationsUserConfiguration>

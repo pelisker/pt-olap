@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb90Q2kZYGEuF/fjrY2Mo2wAAAAACAAAAAAAQZgAAAAEAACAAAABoLRtYkvDxMQ7snCSKjLO/CmgjDJrh66I7CW+VVeEnDwAAAAAOgAAAAAIAACAAAACZDBNGvmYd4L8w48drVW1UPFVtM9z3NZukqlrTiNV2/5AAAAAKbsrHAuw4f6sx9H/9x+omnnSdX+uvmYFzNBCtyOzOaVfFkPMZ6POz+T1C4a3mwSjwKZy1E/Kk7W46x35DrrlFxVBOptwXXrThQ/+7deSminADUuaL2lAnsSef4CEC12UFjeTp35nI1Ci2BwKr0qD2P6CiJ3qavbpYgCPHBfE5eMMLu2KX3XrmTxAsLWXhA7dAAAAAZy9VRviFn9nOHknogNEwfv0u4MC0nnHs0h0Zcf3QnRbB3JnfbGn+4eil54lGYdmMswvGazmn2KRmjq5Yr4HmRw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb90Q2kZYGEuF/fjrY2Mo2wAAAAACAAAAAAAQZgAAAAEAACAAAAAylReiWS8wRB3LC3DwUoFb/OR/z5Y+aFRgmnZBEJmrqwAAAAAOgAAAAAIAACAAAADnZu5sK8CNApj4vr/F/YMZkck5qcVkdEVNdmzWplCa4JAAAAA6Wtq/TMJuP1yqxJjKp/1BcKZlcc1ihLqS/K3OyxoOgJ+Ony2aGTJgT9R8CvVr9CH+/V54r/MP6K2hAz7df0hqTsqkjBYXebUzW100Y6TxcIavZYdPGOH/TgpUahVzDLoxPWFoOIh3YefKmvakhhIpMgdvmo2d2fSqScFPSr/10R26ApvvgGluhiNyZrTa3KVAAAAAQ9rpwkkdHHmmwkWmShVEZo1Yn/uIbAtvHvOj5csnmcUHJAo3vbqyWev4Kx2g0dYynawRZCzcldAo3yhurk/n+Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -63,6 +63,18 @@
   <Configurations>
     <Configuration>
       <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+        <TargetServerVersion>SQLServer2016</TargetServerVersion>
+        <ParameterConfigurationValues />
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DevPelisker</Name>
       <Options>
         <OutputPath>bin</OutputPath>
         <ConnectionMappings />

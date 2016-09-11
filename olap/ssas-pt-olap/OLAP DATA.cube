@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10137" scrolltop="-457" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28575" y="15637" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10137" scrolltop="-457" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32755" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -240,7 +240,7 @@
   <Dimensions>
     <Dimension dwd:design-time-name="dd187c18-2b14-4140-9080-4e836085afa9">
       <ID>t Tovars Dim</ID>
-      <Name>Tovars</Name>
+      <Name>Товары</Name>
       <DimensionID>t Tovars Dim</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="4b2f127e-fe1e-4357-9aa4-59c0ce871ae2">
@@ -265,10 +265,15 @@
           <AttributeID>Cat 4</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5d204d97-abe3-4a44-adc4-04a312738c02">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="260a1f28-b44f-4f1c-b457-783755c71677">
       <ID>t Units Dim</ID>
-      <Name>Units</Name>
+      <Name>Подразделения</Name>
       <DimensionID>t Units Dim</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="21861d4c-d636-47ba-8b6f-179b9af58277">
@@ -281,7 +286,7 @@
     </Dimension>
     <Dimension dwd:design-time-name="f32b6394-47d3-4e4c-91d3-5b1081e5ec5e">
       <ID>t Times Dim</ID>
-      <Name>Times</Name>
+      <Name>Время</Name>
       <DimensionID>t Times Dim</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="2fa3276c-cd38-4d56-8860-003b120e0e9c">
@@ -299,14 +304,8 @@
         <Attribute dwd:design-time-name="0de41804-f022-4c98-8920-742a42ceec45">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ff0a826a-040e-4609-b524-889ce86da129">
-          <AttributeID>Month Num</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="7d34d70f-202e-4453-b13f-7908acb46935">
           <AttributeID>Day Of Week</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="1e4e55af-cd5e-4beb-b490-c69cb29fab79">
-          <AttributeID>Day Of Week Num</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="178d74f8-68f8-420a-878f-f6215dfcab0b">
           <AttributeID>Year</AttributeID>
@@ -315,10 +314,15 @@
           <AttributeID>Date Name</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="109cd61a-6b15-4bdc-b157-e51b7d6020c3">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="f7644d3d-611e-44a4-aaaa-d78f92e382c5">
       <ID>t Stores Dim</ID>
-      <Name>Stores</Name>
+      <Name>Магазины</Name>
       <DimensionID>t Stores Dim</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="452ce3fa-a0eb-439e-a261-dd4208116b51">

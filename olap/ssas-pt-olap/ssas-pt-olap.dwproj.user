@@ -26,5 +26,53 @@
         <ProcessingOption>DoNotProcess</ProcessingOption>
       </Options>
     </Configuration>
+    <Configuration>
+      <Name>DevKID</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>OLAP DATA Dev</Id>
+            <Name>OLAP DATA Dev</Name>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>OLAP DATA Dev</Id>
+            <Name>OLAP DATA Dev</Name>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>ssas-pt-olap</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+        <ProcessingOption>DoNotProcess</ProcessingOption>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DevPelisker</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>OLAP DATA Dev</Id>
+            <Name>OLAP DATA Dev</Name>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>OLAP DATA Dev</Id>
+            <Name>OLAP DATA Dev</Name>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>ssas-pt-olap</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+        <ProcessingOption>DoNotProcess</ProcessingOption>
+      </Options>
+    </Configuration>
   </Configurations>
 </AnalysisServicesUserConfiguration>
