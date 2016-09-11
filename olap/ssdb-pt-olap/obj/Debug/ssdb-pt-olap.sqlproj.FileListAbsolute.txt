@@ -1,0 +1,5 @@
+C:\Projects\pt-olap\olap\ssdb-pt-olap\bin\Debug\ssdb-pt-olap.dacpac
+C:\Projects\pt-olap\olap\ssdb-pt-olap\bin\Debug\ssdb_pt_olap.dll
+C:\Projects\pt-olap\olap\ssdb-pt-olap\bin\Debug\ssdb_pt_olap.pdb
+C:\Projects\pt-olap\olap\ssdb-pt-olap\obj\Debug\ssdb_pt_olap.dll
+C:\Projects\pt-olap\olap\ssdb-pt-olap\obj\Debug\ssdb_pt_olap.pdb

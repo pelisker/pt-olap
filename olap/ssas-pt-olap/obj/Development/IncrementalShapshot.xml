@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,56 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>j+TxMIMrZ4azk83V+1qE95S7GKg=09.09.2016 22:21:5309.09.2016 21:43:56</TimeStamp>
+        <TimeStamp>DTXWgkzqr/Yf/kBvK8uMkWzLnHo=11.09.2016 12:32:2211.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Pv9bwnEFwJaLxw64wiFGhZ2S9Rw=09.09.2016 21:46:0509.09.2016 21:44:23</TimeStamp>
+        <TimeStamp>qfaN4UM0W6eXkA2vMJM6EglZMxc=11.09.2016 12:32:2911.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HNvBz+VEOGa4BfXnYa2pJznol6k=09.09.2016 22:20:0809.09.2016 21:46:36</TimeStamp>
+        <TimeStamp>mx0EwBmbLqQ7KlTbyiO6yqtOqZ8=11.09.2016 12:19:1411.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>t Tovars Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>kucaYZG4ewThDMraS/fx1hs/Y6c=09.09.2016 22:20:2609.09.2016 21:46:36</TimeStamp>
+        <TimeStamp>kucaYZG4ewThDMraS/fx1hs/Y6c=11.09.2016 10:30:5711.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>t Units Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MEdP2ZwqqKl3PgbxV3EM+aRmTWg=09.09.2016 22:20:4309.09.2016 21:46:36</TimeStamp>
+        <TimeStamp>MEdP2ZwqqKl3PgbxV3EM+aRmTWg=11.09.2016 10:30:5711.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>t Times Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>FDFndpfXT7RdQRwKp9jOkE3muYk=09.09.2016 22:21:0109.09.2016 21:46:36</TimeStamp>
+        <TimeStamp>FDFndpfXT7RdQRwKp9jOkE3muYk=11.09.2016 10:30:5711.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>t Stores Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>YQ7mDixg0MvUWlF/UEmI6L1RlpY=09.09.2016 22:21:0109.09.2016 21:46:367TyVMCQeuo1uBLDvG0cH1lHW58I=09.09.2016 21:46:3609.09.2016 21:46:36</TimeStamp>
+        <TimeStamp>dTZldrBFilqdkeQiRL7jOwFaujs=11.09.2016 12:35:0911.09.2016 10:30:577TyVMCQeuo1uBLDvG0cH1lHW58I=11.09.2016 10:30:5711.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>1vIeWsRmyKin/DDlSTwHIaLJm9Q=09.09.2016 21:48:4109.09.2016 21:48:16</TimeStamp>
+        <TimeStamp>1vIeWsRmyKin/DDlSTwHIaLJm9Q=11.09.2016 10:30:5711.09.2016 10:30:57</TimeStamp>
         <ID>
           <String>Role</String>
         </ID>
@@ -76,7 +76,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>1MJ77599duZ8zoTVsVV7/FdYObY=09.09.2016 21:48:3409.09.2016 21:41:47</TimeStamp>
+      <TimeStamp>1MJ77599duZ8zoTVsVV7/FdYObY=11.09.2016 10:30:5711.09.2016 10:30:57</TimeStamp>
       <ID>
         <String>ssas-pt-olap</String>
       </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-09-09T19:21:57.253333Z</LastDeployed>
+  <LastDeployed>2016-09-11T09:35:12.656667Z</LastDeployed>
 </DeploymentSnapshot>
