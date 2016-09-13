@@ -348,9 +348,9 @@
           <Name>Кол-во продажи</Name>
           <Source dwd:design-time-name="1899002a-be7e-454f-8522-7145db343f9d">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c49c4124-5369-4e06-89fe-46ce96d0a842">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fe06a3e7-f7c4-4f2e-bf75-83eb991f4837">
               <TableID>dbo_t_sales_fact</TableID>
-              <ColumnID>quantity_sale</ColumnID>
+              <ColumnID>quantity</ColumnID>
             </Source>
           </Source>
         </Measure>
@@ -359,31 +359,9 @@
           <Name>Сумма продажи</Name>
           <Source dwd:design-time-name="e7ac6f9c-077b-4061-aeec-d50d6192738b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="04fa0440-6c1f-44d8-8715-231e946de2ee">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c2f1fd3a-7a58-4768-8f99-5addd6ef0a97">
               <TableID>dbo_t_sales_fact</TableID>
-              <ColumnID>amount_sale</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="0e29f9e2-a6c1-4765-9604-24dde4831d50">
-          <ID>Quantity Order</ID>
-          <Name>Кол-во заказа</Name>
-          <Source dwd:design-time-name="37ac5ec1-33e2-4c9d-a10d-2772fc4431a9">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="800eddbb-b838-4d1e-9cd1-66d3a6ffdbf4">
-              <TableID>dbo_t_sales_fact</TableID>
-              <ColumnID>quantity_order</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="98680ea9-b322-4816-8cb4-8d7f3599736d">
-          <ID>Amount Order</ID>
-          <Name>Сумма заказа</Name>
-          <Source dwd:design-time-name="51227fde-8767-4f76-a6d0-547296c6de38">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9853d5bd-12e6-4034-aa00-21b51d6d405f">
-              <TableID>dbo_t_sales_fact</TableID>
-              <ColumnID>amount_order</ColumnID>
+              <ColumnID>amount</ColumnID>
             </Source>
           </Source>
         </Measure>

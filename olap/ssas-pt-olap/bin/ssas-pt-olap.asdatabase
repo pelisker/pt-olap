@@ -82,7 +82,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
           <Value>
             <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
-              <Shapes NodeWidth="113">
+              <Shapes NodeWidth="134">
                 <Shape Id="Id" Expanded="true">
                   <Attributes>
                     <Attribute Id="Id" />
@@ -90,35 +90,35 @@
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
+                <Shape Id="Name" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Name" />
+                  </Attributes>
+                  <Position x="192" y="20" />
+                </Shape>
                 <Shape Id="Cat 4" Expanded="false">
                   <Attributes>
                     <Attribute Id="Cat 4" />
                   </Attributes>
-                  <Position x="166" y="20" />
+                  <Position x="365" y="20" />
                 </Shape>
                 <Shape Id="Cat 3" Expanded="false">
                   <Attributes>
                     <Attribute Id="Cat 3" />
                   </Attributes>
-                  <Position x="312" y="20" />
+                  <Position x="537" y="20" />
                 </Shape>
                 <Shape Id="Cat 2" Expanded="false">
                   <Attributes>
                     <Attribute Id="Cat 2" />
                   </Attributes>
-                  <Position x="458" y="20" />
+                  <Position x="710" y="20" />
                 </Shape>
                 <Shape Id="Cat 1" Expanded="false">
                   <Attributes>
                     <Attribute Id="Cat 1" />
                   </Attributes>
-                  <Position x="605" y="20" />
-                </Shape>
-                <Shape Id="Name" Expanded="false">
-                  <Attributes>
-                    <Attribute Id="Name" />
-                  </Attributes>
-                  <Position x="166" y="68" />
+                  <Position x="882" y="20" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -153,15 +153,11 @@
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Name</AttributeID>
-              <Name>Name_</Name>
+              <Name>Товар</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Brand</AttributeID>
-              <Name>Brand</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Cat 4</AttributeID>
-              <Name>Cat 4</Name>
+              <Name>Производитель</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -181,7 +177,28 @@
                 <ColumnID>name</ColumnID>
               </Source>
             </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_t_tovars_dim</TableID>
+                <ColumnID>id</ColumnID>
+              </Source>
+            </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>500</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_t_tovars_dim</TableID>
+              <ColumnID>name</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Cat 4</AttributeID>
+              <Name>Ур 4</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -250,7 +267,7 @@
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Cat 1</AttributeID>
-              <Name>Cat 1</Name>
+              <Name>Ур 1</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -281,7 +298,7 @@
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Cat 2</AttributeID>
-              <Name>Cat 2</Name>
+              <Name>Ур 2</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -312,7 +329,7 @@
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Cat 3</AttributeID>
-              <Name>Cat 3</Name>
+              <Name>Ур 3</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -323,26 +340,26 @@
       <Hierarchies>
         <Hierarchy>
           <ID>Hierarchy</ID>
-          <Name>Категория</Name>
+          <Name>Категории</Name>
           <Levels>
             <Level>
-              <ID>Cat 1</ID>
-              <Name>Cat 1</Name>
+              <ID>Ур 1</ID>
+              <Name>Ур 1</Name>
               <SourceAttributeID>Cat 1</SourceAttributeID>
             </Level>
             <Level>
-              <ID>Cat 2</ID>
-              <Name>Cat 2</Name>
+              <ID>Ур 2</ID>
+              <Name>Ур 2</Name>
               <SourceAttributeID>Cat 2</SourceAttributeID>
             </Level>
             <Level>
-              <ID>Cat 3</ID>
-              <Name>Cat 3</Name>
+              <ID>Ур 3</ID>
+              <Name>Ур 3</Name>
               <SourceAttributeID>Cat 3</SourceAttributeID>
             </Level>
             <Level>
-              <ID>Cat 4</ID>
-              <Name>Cat 4</Name>
+              <ID>Ур 4</ID>
+              <Name>Ур 4</Name>
               <SourceAttributeID>Cat 4</SourceAttributeID>
             </Level>
             <Level>
@@ -488,7 +505,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4200" scrolltop="-5728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10107" y="15637" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4200" scrolltop="-5728" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11351" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                 </font>
@@ -1774,7 +1791,7 @@
                       </connector>
                     </ddscontrol>
                   </dds>
-</DiagramLayout>
+                </DiagramLayout>
                 <ShowRelationshipNames>False</ShowRelationshipNames>
                 <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
                 <DiagramViewPortLeft>-802</DiagramViewPortLeft>

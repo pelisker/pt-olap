@@ -19,7 +19,7 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>Pf+rQ2oWFemVL+mW9guVRBZgJdc=12.09.2016 17:10:2612.09.2016 17:05:06</TimeStamp>
+        <TimeStamp>Pf+rQ2oWFemVL+mW9guVRBZgJdc=13.09.2016 13:42:0312.09.2016 17:05:06</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Ftayi2lbJQVNr15wYgPr8W6Kn7s=12.09.2016 17:32:0012.09.2016 17:05:06</TimeStamp>
+        <TimeStamp>ldqd0JwrDXjnO6ABDR8rj+Ws0uI=13.09.2016 13:48:0312.09.2016 17:05:06</TimeStamp>
         <ID>
           <String>t Tovars Dim</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>yhtKE2X7BH+LiCoug+zNJOBq0DI=12.09.2016 17:32:0012.09.2016 17:05:067TyVMCQeuo1uBLDvG0cH1lHW58I=12.09.2016 17:05:0612.09.2016 17:05:06</TimeStamp>
+        <TimeStamp>A2V33VeN9g1nefpBfLtrHjSrHaY=13.09.2016 13:34:2312.09.2016 17:05:067TyVMCQeuo1uBLDvG0cH1lHW58I=12.09.2016 17:05:0612.09.2016 17:05:06</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-09-12T14:34:59.963333Z</LastDeployed>
+  <LastDeployed>2016-09-13T10:48:04.216667Z</LastDeployed>
 </DeploymentSnapshot>

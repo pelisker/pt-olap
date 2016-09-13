@@ -74,5 +74,6 @@
     <Build Include="dbo\Tables\t_sales_fact.sql" />
     <Build Include="dbo\Stored Procedures\fill_times_Dim.sql" />
     <Build Include="Security\OLAP_server.sql" />
+    <Build Include="dbo\Tables\t_statusDoc_dim.sql" />
   </ItemGroup>
 </Project>

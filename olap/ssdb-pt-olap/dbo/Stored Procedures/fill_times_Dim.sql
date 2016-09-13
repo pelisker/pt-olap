@@ -13,8 +13,8 @@ BEGIN
 		   Неделя = 'Неделя ' + cast(datepart(WEEK,CONVERT(datetime,День)) as varchar(10)),
 		   Неделя2sort = 
 		   cast(datepart(yy,CONVERT(datetime,День)) as varchar(10)) + '_' 
-		   + right(100 + datepart(MM,CONVERT(datetime, getdate())), 2) + '_' 
-		   + right(100 + datepart(WEEK,CONVERT(datetime, getdate())), 2),
+		   + right(100 + datepart(MM,CONVERT(datetime, День)), 2) + '_' 
+		   + right(100 + datepart(WEEK,CONVERT(datetime, День)), 2),
 		   --+ cast(FORMAT(datepart(MM,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 
 		   --+ cast(FORMAT(datepart(WEEK,CONVERT(datetime,День)) , '00','en-US')as varchar(2)),
 		   case datepart(mm,CONVERT(datetime,День))
@@ -31,7 +31,11 @@ BEGIN
 			 when 11 then 'Ноябрь'
 			 when 12 then 'Декабрь'
 		   end Месяц,
-			cast(datepart(yy,CONVERT(datetime,День)) as varchar(4)) + '-' + right(100 + datepart(MM,CONVERT(datetime, getdate())), 2) Месяц2sort,
+			cast(datepart(yy,CONVERT(datetime,День)) as varchar(4)) 
+			+ '-' + right(100 + datepart(MM,CONVERT(datetime, День)), 2) 
+			--+ '-' + right(100 + datepart(WEEK,CONVERT(datetime, День)), 2) 
+			--+ '-' + right(100 + datepart(DAY,CONVERT(datetime, День)), 2) 
+			Месяц2sort,
 		   case lower(datename(weekday,CONVERT(datetime,День)))
 			 when 'monday' THEN 'понедельник'
 			 when 'tuesday' THEN 'вторник'
@@ -42,8 +46,8 @@ BEGIN
 			 when 'sunday' THEN 'воскресенье'
 		   end AS ДеньНедели,
 		   cast(datepart(yy,CONVERT(datetime,День)) as varchar(10)) + '_' 
-		   + right(100 + datepart(MM,CONVERT(datetime, getdate())), 2) + '_' 
-		   + right(100 + datepart(WEEK,CONVERT(datetime, getdate())), 2)+ '_' 
+		   + right(100 + datepart(MM,CONVERT(datetime, День)), 2) + '_' 
+		   + right(100 + datepart(WEEK,CONVERT(datetime, День)), 2)+ '_' 
 		   --+ cast(FORMAT(datepart(MM,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 		   
 		   --+ cast(FORMAT(datepart(WEEK,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 
 		   + case datename(weekday,CONVERT(datetime,День))
