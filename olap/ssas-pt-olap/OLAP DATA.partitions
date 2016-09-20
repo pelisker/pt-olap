@@ -1,5 +1,5 @@
 ﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d066e9eb-f4d0-4261-bda5-f46e3b3aec72" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>OLAP DATA Dev</ID>
+  <ID>OLAP DATA</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>t Sales Fact</ID>
@@ -34,6 +34,26 @@
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="b778ec32-6fa7-44bc-b5d3-8b9debd63c2c">
             <DataSourceViewID>OLAP DATA Dev</DataSourceViewID>
             <TableID>dbo_t_stock_fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sales Fact Cnt 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="063b274c-ae38-427c-8a1a-1b083db7064c">
+          <ID>Sales Fact Cnt</ID>
+          <Name>Sales Fact Cnt</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ed5f57ec-6408-4586-89ed-d16fc741f252">
+            <DataSourceViewID>OLAP DATA Dev</DataSourceViewID>
+            <TableID>Sales_fact_cnt</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

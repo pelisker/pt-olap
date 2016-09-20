@@ -45,12 +45,12 @@ BEGIN
 			 when 'saturday' THEN 'суббота'
 			 when 'sunday' THEN 'воскресенье'
 		   end AS ДеньНедели,
-		   cast(datepart(yy,CONVERT(datetime,День)) as varchar(10)) + '_' 
+		   /*cast(datepart(yy,CONVERT(datetime,День)) as varchar(10)) + '_' 
 		   + right(100 + datepart(MM,CONVERT(datetime, День)), 2) + '_' 
 		   + right(100 + datepart(WEEK,CONVERT(datetime, День)), 2)+ '_' 
 		   --+ cast(FORMAT(datepart(MM,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 		   
 		   --+ cast(FORMAT(datepart(WEEK,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 
-		   + case datename(weekday,CONVERT(datetime,День))
+		   +*/ case datename(weekday,CONVERT(datetime,День))
 			 when 'monday' THEN '01'
 			 when 'tuesday' THEN '02'
 			 when 'wednesday' THEN '03'

@@ -3,7 +3,7 @@
     <DataSources>
       <DataSource>
         <ID>OLAP DATA Dev</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Password=;User ID=;Initial Catalog=OLAP_DATA</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=OLAP_DATA_dev</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
@@ -23,6 +23,9 @@
       <Dimension>
         <ID>t Stores Dim</ID>
       </Dimension>
+      <Dimension>
+        <ID>Status doc</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -41,6 +44,14 @@
             <Partitions>
               <Partition>
                 <ID>t Stock Fact</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sales Fact Cnt 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sales Fact Cnt</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

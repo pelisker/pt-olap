@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4380" scrolltop="-6231" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10107" y="15637" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4380" scrolltop="-6231" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11139" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -209,10 +209,10 @@
       <ID>Cat 1</ID>
       <Name>Ур 1</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a30480d0-2c9e-4d05-84a6-7f9917be7d15">
+        <KeyColumn dwd:design-time-name="b6b86951-40dc-486f-8e6d-7f3dec8d4a2c">
           <DataType>WChar</DataType>
           <DataSize>11</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="784615d1-fb2e-435b-aedb-090a1859dc71">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb27b14b-c231-4d85-afa2-cac6037bbdbe">
             <TableID>dbo_t_tovars_dim</TableID>
             <ColumnID>IDcat_1</ColumnID>
           </Source>
@@ -226,6 +226,7 @@
           <ColumnID>cat_1</ColumnID>
         </Source>
       </NameColumn>
+      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -236,8 +237,8 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="afedcef2-f48f-4e77-a44f-0e702372f442">
           <DataType>WChar</DataType>
-          <DataSize>11</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a0006f1-2f46-48ac-8f6c-87da2bdcb3c6">
+          <DataSize>22</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc6fa2fa-7264-46ec-900c-4ac1382b33c3">
             <TableID>dbo_t_tovars_dim</TableID>
             <ColumnID>IDcat_2</ColumnID>
           </Source>
@@ -257,6 +258,7 @@
           <Name>Ур 1</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -267,7 +269,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="08d4ecd5-8ab0-47d2-beb3-9c66bd2b28a1">
           <DataType>WChar</DataType>
-          <DataSize>11</DataSize>
+          <DataSize>33</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="0f380b20-18c8-4f59-bb13-0f18ea5898c5">
             <TableID>dbo_t_tovars_dim</TableID>
             <ColumnID>IDcat_3</ColumnID>
@@ -288,6 +290,7 @@
           <Name>Ур 2</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -298,7 +301,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="1cba8971-6aa4-4909-96eb-247a26e2fd60">
           <DataType>WChar</DataType>
-          <DataSize>11</DataSize>
+          <DataSize>44</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="72af7765-d2c1-4f64-a447-73a4345dc52f">
             <TableID>dbo_t_tovars_dim</TableID>
             <ColumnID>IDcat_4</ColumnID>
@@ -319,6 +322,7 @@
           <Name>Ур 3</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
