@@ -19,63 +19,63 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>Pf+rQ2oWFemVL+mW9guVRBZgJdc=21.09.2016 12:08:3221.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>P0QKompNMYqICJws293CirWvBGs=21.09.2016 12:49:0312.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>IUUIPS8puYuuZ9Y/B5jXsv8UuU8=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>N7HjNdAt1/FWGkyqky/wVcZ8VoM=21.09.2016 12:46:2112.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>FSKsDqZBiKoxlYXh5Med3oeAKR8=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>FSKsDqZBiKoxlYXh5Med3oeAKR8=21.09.2016 11:47:1112.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>t Tovars Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>m6AVw/lymfKqQEFpzBQpmGRY57g=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>m6AVw/lymfKqQEFpzBQpmGRY57g=12.09.2016 17:25:1812.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>t Units Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZsUKFXaOmuYA6NsB7O4WA2eGhow=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>ZsUKFXaOmuYA6NsB7O4WA2eGhow=21.09.2016 11:47:1112.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>t Times Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RQ2y86icJb0YQEKOil3nhgryWug=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>RQ2y86icJb0YQEKOil3nhgryWug=13.09.2016 9:26:2812.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>t Stores Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>YFaS+hKd28EbiLtl0kAuwELSvo0=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>YFaS+hKd28EbiLtl0kAuwELSvo0=21.09.2016 11:47:1121.09.2016 11:47:11</TimeStamp>
         <ID>
           <String>Status doc</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>AcoyrjyGbjpKGx9xQMCeDXACkZg=21.09.2016 11:58:2721.09.2016 11:58:27+RpAIbMhNm5fzjnJx60/MKIak20=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>0I1gvRcfusYiwLuKK0I6L8S7zmk=21.09.2016 12:40:1012.09.2016 17:25:18+RpAIbMhNm5fzjnJx60/MKIak20=21.09.2016 11:47:1112.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>OLAP DATA Dev</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>1vIeWsRmyKin/DDlSTwHIaLJm9Q=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+        <TimeStamp>1vIeWsRmyKin/DDlSTwHIaLJm9Q=12.09.2016 17:25:1812.09.2016 17:25:18</TimeStamp>
         <ID>
           <String>Role</String>
         </ID>
@@ -83,7 +83,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>1MJ77599duZ8zoTVsVV7/FdYObY=21.09.2016 11:58:2721.09.2016 11:58:27</TimeStamp>
+      <TimeStamp>1MJ77599duZ8zoTVsVV7/FdYObY=12.09.2016 17:25:1812.09.2016 17:25:18</TimeStamp>
       <ID>
         <String>ssas-pt-olap</String>
       </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-09-21T09:09:36.46Z</LastDeployed>
+  <LastDeployed>2016-09-21T09:49:07.123333Z</LastDeployed>
 </DeploymentSnapshot>

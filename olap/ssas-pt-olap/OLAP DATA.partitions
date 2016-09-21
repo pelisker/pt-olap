@@ -42,18 +42,18 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Sales Fact Cnt 1</ID>
+      <ID>Продажи</ID>
       <Partitions>
-        <Partition dwd:design-time-name="063b274c-ae38-427c-8a1a-1b083db7064c">
-          <ID>Sales Fact Cnt</ID>
-          <Name>Sales Fact Cnt</Name>
+        <Partition dwd:design-time-name="3a07b2cd-6f9b-4089-8aef-1642bd93b029">
+          <ID>t Sales Fact</ID>
+          <Name>t Sales Fact</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ed5f57ec-6408-4586-89ed-d16fc741f252">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b6fc3b1d-b0a9-45ed-9cd8-dd40ac3985a2">
             <DataSourceViewID>OLAP DATA Dev</DataSourceViewID>
-            <TableID>Sales_fact_cnt</TableID>
+            <TableID>dbo_t_sales_fact</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
