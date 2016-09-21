@@ -2,6 +2,8 @@
 AS
 BEGIN
 
+	SET LANGUAGE russian
+	SET DATEFORMAT mdy
 	truncate table t_times_dim
 
 	insert into t_times_dim (id, [date], [dateName], [day],[week],[weekNum],[month],[monthnum],[dayofweek],[dayofweeknum],[year])
@@ -44,6 +46,7 @@ BEGIN
 			 when 'friday' THEN 'пятница'
 			 when 'saturday' THEN 'суббота'
 			 when 'sunday' THEN 'воскресенье'
+			 else lower(datename(weekday,CONVERT(datetime,День)))
 		   end AS ДеньНедели,
 		   /*cast(datepart(yy,CONVERT(datetime,День)) as varchar(10)) + '_' 
 		   + right(100 + datepart(MM,CONVERT(datetime, День)), 2) + '_' 
@@ -51,13 +54,13 @@ BEGIN
 		   --+ cast(FORMAT(datepart(MM,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 		   
 		   --+ cast(FORMAT(datepart(WEEK,CONVERT(datetime,День)) , '00','en-US')as varchar(2)) + '_' 
 		   +*/ case datename(weekday,CONVERT(datetime,День))
-			 when 'monday' THEN '01'
-			 when 'tuesday' THEN '02'
-			 when 'wednesday' THEN '03'
-			 when 'thursday' THEN '04'
-			 when 'friday' THEN '05'
-			 when 'saturday' THEN '06'
-			 when 'sunday' THEN '07'
+			 when 'понедельник' THEN '01'
+			 when 'вторник' THEN '02'
+			 when 'среда' THEN '03'
+			 when 'четверг' THEN '04'
+			 when 'пятница' THEN '05'
+			 when 'суббота' THEN '06'
+			 when 'воскресенье' THEN '07'
 		   end 
 		   as ДеньНеделиДляСортировки,
 		   datepart(yy,CONVERT(datetime,День)) as Год
