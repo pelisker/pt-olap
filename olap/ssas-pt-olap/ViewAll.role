@@ -3,4 +3,10 @@
   <Name>ViewAll</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Description>Просмотр данных куба</Description>
+  <Members>
+    <Member>
+      <Name>PREMIER-TECHNO\a.smetanin</Name>
+    </Member>
+  </Members>
 </Role>

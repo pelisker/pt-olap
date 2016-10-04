@@ -33,12 +33,14 @@
           <ConfigurationSetting>
             <Id>OLAP DATA Dev</Id>
             <Name>OLAP DATA Dev</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+4s81cTa20idEIS0jubslgAAAAAcAAAATwBMAEEAUAAgAEQAQQBUAEEAIABEAGUAdgAAAANmAADAAAAAEAAAAAGN8kaWHwNEQ9mgt2deRGUAAAAABIAAAKAAAAAQAAAAwXVBZNgxcd7x1mLHrkQejxgAAAA+t4nkYQSC834NqznzL31A9YOxdX5MTdwUAAAA64ZprCXF60LbmFTM9ezFz8XdIJs=</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>OLAP DATA Dev</Id>
             <Name>OLAP DATA Dev</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+4s81cTa20idEIS0jubslgAAAAAcAAAATwBMAEEAUAAgAEQAQQBUAEEAIABEAGUAdgAAAANmAADAAAAAEAAAAITdR/bGRSs8F4kEUx/MYFAAAAAABIAAAKAAAAAQAAAASFeqYWZYAAN+lbKydmsrgBAAAABTvMiIuJh+zTewJo3B56fvFAAAADME4cOJToaHGOhaw2j+DuiZ4GGx</Value>
           </ConfigurationSetting>
         </UserPasswords>
         <TargetServer>localhost</TargetServer>
